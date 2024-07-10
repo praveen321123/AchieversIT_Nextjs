@@ -1,0 +1,17 @@
+.card {
+    min-height: 131px !important;
+    width: 8rem;
+    border: none;
+    border-radius: 0px;
+    margin: 1.5rem 0.5rem;
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28)
+  }
+.card h5{
+  font-size: 12px;
+}
+  
+.icon {
+    width: 50px;
+    height: 50px;
+}
+  

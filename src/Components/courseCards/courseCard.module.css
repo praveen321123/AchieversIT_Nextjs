@@ -1,0 +1,91 @@
+.card {
+    width: 15.5rem;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 30px 0px;
+  }
+  
+  .cardHead {
+    padding: 20px;
+    color: white;
+    background: linear-gradient(to right, #fc6767, #ec008c);
+  }
+
+.cardHead.Angular{
+  background: linear-gradient(to right, #fc6767, #ec008c);
+}
+.cardHead.ReactJS{
+  background: linear-gradient(to left, #f2c94c, #f2994a);
+}
+.cardHead.Mean{
+  background: linear-gradient(to right, #89fffd, #ef32d9);
+}
+.cardHead.Mern{
+  background: linear-gradient(to right, #92fe9d, #00c9ff);
+}
+.cardHead.Web{
+  background: linear-gradient(to left, #1cb5e0, #000046);
+}
+.cardHead.Digital{
+  background: linear-gradient(to left, #f2fcfe, #1c92d2);
+}
+.cardHead.React-native{
+  background: linear-gradient(to right, #fc6767, #ec008c);
+}
+.cardHead.Ionic{
+  background: linear-gradient(to left, #feb47b, #ff7e5f);
+}
+.cardHead.UI{
+  background: linear-gradient(to right, #92fe9d, #00c9ff);
+}
+.cardHead.Vuejs{
+  background: linear-gradient(to left, #1cb5e0, #000046);
+}
+.cardHead.Wordpress{
+  background: linear-gradient(to left, #f2fcfe, #1c92d2);
+}
+.cardHead.Python{
+  background: linear-gradient(to left, #feb47b, #ff7e5f);
+}
+
+  .cardImage {
+    width: 80px;
+    height: 80px;
+    filter: invert(1);
+  }
+  .cardImage img {
+    width: 100%;
+    height: auto;
+    color: #ffffff;
+  }
+  .cardTitle h5{
+   width: 140px;
+   position: relative;
+   right: 20px;
+  }
+  
+  .badge {
+    width: 30px;
+    position: relative;
+    left: 110px;
+    bottom: 100px;
+  }
+  
+  .cardText {
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 0.9rem;
+  }
+  
+  .cardFooter {
+    background: white;
+    padding: 1rem;
+  }
+  
+  .text-warning {
+    font-size: 1rem;
+  }
+  
+  .text-muted {
+    font-size: 0.9rem;
+  }
+  

@@ -1,0 +1,39 @@
+/* components/Statistics.module.css */
+.Top-container{
+    background-image: url(../../../public/icons/TOP10_BG.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 20px;
+    margin: 20px 0px;
+}
+.inner-container{
+  color: #0c5397;
+}
+.inner-container h2{
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.statCard {
+    transition: transform 0.3s ease;
+  }
+  .statCard .card_1{
+    border-radius: 0px;
+    background-color: #0c5397;
+
+  }
+  .statCard:hover {
+    transform: scale(1.05);
+  }
+  
+  .statCard h3{
+    color: #0c5397 ;
+    font-size: 3.50rem;
+    font-weight: bold;
+  }
+  
+  .statCard p {
+    font-size: 1rem;
+    color: #666;
+  }
+  

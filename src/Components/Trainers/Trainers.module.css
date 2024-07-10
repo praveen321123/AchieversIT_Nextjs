@@ -1,0 +1,28 @@
+/* components/Trainers.module.css */
+.trainerCard {
+    transition: transform 0.3s ease;
+  }
+  
+  .trainerCard:hover {
+    transform: scale(1.05);
+  }
+  
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .logo {
+    max-width: 100px;
+    margin-bottom: 10px;
+  }
+  
+  .trainerCard h5 {
+    margin-top: 10px;
+    font-size: 1.25rem;
+    color: #333;
+  }
+  

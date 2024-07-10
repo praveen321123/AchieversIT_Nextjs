@@ -1,0 +1,23 @@
+.logo{
+  height: 55px;
+  object-fit: contain;
+}
+
+.navbar{
+  padding: 0%;
+}
+
+.navbar img{
+  position: relative;
+  right: 1.75rem;
+}
+  
+.navbar ul {
+  position: relative;
+  left: 4rem;
+  list-style: none;
+  margin: 0;
+  padding: 0 4.5rem;
+  gap: 1.5rem;
+  font-size: 15px;
+}

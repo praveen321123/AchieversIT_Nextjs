@@ -1,0 +1,7 @@
+export const iconLink = "https://www.achieversit.com/assets/images/favicon.jpg"
+export const logoLink = "https://www.achieversit.com/assets/images/logo-white.png"
+export const carousel1 = "https://www.achieversit.com/assets/images/angular_training.jpg"
+export const carousel2 = "https://www.achieversit.com/assets/images/react_training.jpg"
+export const carousel3 = "https://www.achieversit.com/assets/images/full_stack_development.jpg"
+export const carousel4 = "https://www.achieversit.com/assets/images/aws_training.jpg"
+export const carousel5 = "https://www.achieversit.com/assets/images/web_development.jpg"

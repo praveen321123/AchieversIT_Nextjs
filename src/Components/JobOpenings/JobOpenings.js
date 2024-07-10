@@ -1,7 +1,7 @@
 "use client"
 
 import { useState } from 'react';
-import "./Openings.module.css"
+import styles from "./Openings.module.css"
 
 const JobOpenings = () => {
   const [activeIndex, setActiveIndex] = useState(null);
@@ -45,20 +45,20 @@ const JobOpenings = () => {
 
   return (
     <div className="container py-5">
-      <h2 className="text-center">Latest Job Openings</h2>
-      <div className="row mt-4">
+      <h2 className="fw-bold mb-4">Latest Job Openings</h2>
+      <div className="row mt-4 ms-3">
         {jobs.map((job, index) => (
           <div className="col-md-6 mb-4" key={index}>
-            <div className={`card job-card ${activeIndex === index ? 'active' : ''}`}>
-              <div className="card-body">
-                <h5 className="card-title">{job.title}</h5>
+            <div className={`card mt-3 ${styles["job-card"]} ${activeIndex === index ? 'active' : ''}`}>
+              <div className="card-body ">
+                <h4 className="card-title fw-bold">{job.title}</h4>
                 <p className="card-text">Location: {job.location}</p>
                 {activeIndex === index && (
                   <div className="job-description">
                     <p>{job.description}</p>
                   </div>
                 )}
-                <button className="btn btn-outline-light text-white" onClick={() => handleToggle(index)}>
+                <button className="btn" onClick={() => handleToggle(index)}>
                   <i className={`fas fa-chevron-${activeIndex === index ? 'up' : 'down'}`}></i>
                 </button>
               </div>

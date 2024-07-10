@@ -1,4 +1,4 @@
-import "./Locations.module.css"
+import styles from "./Locations.module.css"
 
 const locations = [
     {
@@ -30,12 +30,12 @@ const locations = [
   const Locations = () => (
     <div className="container text-center py-5">
       <h2>Locations</h2>
-      <p>Come and discuss with us about your goals, we transform your goals into success!!!</p>
+      <p className="mb-3">Come and discuss with us about your goals, we transform your goals into success!!!</p>
       <div className="row mt-4">
         {locations.map((location, index) => (
-          <div className="col-md-4 col-sm-6 mb-4" key={index}>
-            <div className="location-card p-3">
-              <h4><span role="img" aria-label="location">📍</span> {location.name}</h4>
+          <div className="col-md-4 col-sm-6 mb-4 " key={index}>
+            <div className={`${styles.locationCard} border-1 p-3`}>
+              <h5><span role="img" aria-label="location">📍</span> {location.name}</h5>
               <p>{location.address}</p>
             </div>
           </div>

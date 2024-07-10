@@ -1,55 +1,74 @@
 import React from 'react';
-import ait_img from "@/assests/logo-white.png"
+import styles from './AITFooter.module.css';
 import Image from 'next/image';
+import ait_img from "@/assests/logo-white.png"
 
 const AITFooter = () => {
   return (
-    <footer className="bg-dark text-white py-5">
-      <div className="container">
+    <footer className={`${styles.footer} py-5 ps-3`}>
+      <div className="container-fluid">
         <div className="row">
-          <div className="col-md-3 mb-4">
-            <Image src={ait_img}  alt="AchieversIT Software Training Institute in Bangalore" priority/>            
-          <p>AchieversIT - Provides a wide group of opportunities for freshers and Experienced candidates who can develop their skills and build their career opportunities across multiple Companies.</p>
+          <div className="col-md-3">
+          <Image src={ait_img} className="mb-3" alt="AchieversIT" priority/>
+            <p>
+              AchieversIT - Provides a wide group of opportunities for freshers and Experienced
+              candidate who can develop their skills and build their career opportunities across
+              multiple Companies.
+            </p>
           </div>
-          <div className="col-md-3 mb-4">
-            <h5 className="text-uppercase">Company</h5>
+          <div className={`${styles.company} col-md-3 mt-3 `}>
+            <h5>COMPANY</h5>
             <ul className="list-unstyled">
-              <li><a href="#" className="text-white">Home</a></li>
-              <li><a href="#" className="text-white">Placements</a></li>
-              <li><a href="#" className="text-white">Corporate Training</a></li>
-              <li><a href="#" className="text-white">Contact Us</a></li>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Placements</a></li>
+              <li><a href="#">Corporate Training</a></li>
+              <li><a href="#">Contact US</a></li>
             </ul>
           </div>
-          <div className="col-md-3 mb-4">
-            <h5 className="text-uppercase">Trending Courses</h5>
+          <div className="col-md-3">
+            <h5>TRENDING COURSES</h5>
             <ul className="list-unstyled">
-              <li><a href="#" className="text-white">UI Development Course</a></li>
-              <li><a href="#" className="text-white">Angular JS Course</a></li>
-              <li><a href="#" className="text-white">React JS Course</a></li>
-              <li><a href="#" className="text-white">Digital Marketing Course</a></li>
-              <li><a href="#" className="text-white">Python Course</a></li>
+              <li><a href="#">UI Development Course</a></li>
+              <li><a href="#">Angular JS Course</a></li>
+              <li><a href="#">React JS Course</a></li>
+              <li><a href="#">Digital Marketing Course</a></li>
+              <li><a href="#">Python Course</a></li>
             </ul>
           </div>
-          <div className="col-md-3 mb-4">
-            <h5 className="text-uppercase">Contact Info</h5>
-            <ul className="list-unstyled">
-              <li><span role="img" aria-label="location">📍</span> #63, 1st Floor, 16th Main, 8th Cross, BTM 1st Stage, Bangalore, India - 560029</li>
-              <li><span role="img" aria-label="phone">📞</span> India: +91 8431-040-457</li>
-              <li><span role="img" aria-label="email">📧</span> info@achieversit.com</li>
+          <div className="col-md-3">
+            <h5>CONTACT INFO</h5>
+            <address>
+              <p>
+                #63, 1<sup>st</sup> Floor, 16<sup>th</sup> Main, 8<sup>th</sup> Cross, BTM 1<sup>st</sup> Stage,
+                Bangalore, India - 560029
+              </p>
+              <p>India: +91 8431-040-457</p>
+              <p><a href="mailto:info@achieversit.com">info@achieversit.com</a></p>
+            </address>
+          </div>
+        </div><hr className='text-white'/>
+        <div className="row mt-5">
+          <div className={`${styles.icons} col-md-12 text-center`}>
+            <ul className="list-inline">
+              <li className="list-inline-item"><a href="#"><i className="fab fa-facebook-f"></i></a></li>
+              <li className="list-inline-item"><a href="#"><i className="fab fa-instagram"></i></a></li>
+              <li className="list-inline-item"><a href="#"><i className="fab fa-linkedin-in"></i></a></li>
+              <li className="list-inline-item"><a href="#"><i className="fab fa-twitter"></i></a></li>
+              <li className="list-inline-item"><a href="#"><i className="fab fa-pinterest"></i></a></li>
+              <li className="list-inline-item"><a href="#"><i className="fab fa-youtube"></i></a></li>
             </ul>
           </div>
         </div>
-        <div className="row mt-4">
-          <div className="col-12 text-center">
-            <p>Copyright © 2024 AchieversIT. All Rights Reserved</p>
-            <div className="d-flex justify-content-center">
-              <a href="#" className="text-white mx-2">🌐</a>
-              <a href="#" className="text-white mx-2">📸</a>
-              <a href="#" className="text-white mx-2">💼</a>
-              <a href="#" className="text-white mx-2">🐦</a>
-              <a href="#" className="text-white mx-2">📍</a>
-              <a href="#" className="text-white mx-2">▶️</a>
-            </div>
+        <div className={`${styles.rights} row mt-3 `}>
+          <div className="col-md-6">
+            <p className='fw-bold me-5'>Copyright &copy; 2024 AchieversIT. All Rights Reserved</p>
+          </div>
+          <div className="col-md-6">
+            <ul className="list-inline">
+              <li className="list-inline-item"><a href="#">Privacy Policy</a></li>
+              <li className="list-inline-item"><a href="#">Terms of use</a></li>
+              <li className="list-inline-item"><a href="#">Refund Policy</a></li>
+            </ul>
           </div>
         </div>
       </div>

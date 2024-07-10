@@ -3,7 +3,7 @@
     margin: auto;
   }
   
-  .location-card {
+  .locationCard {
     background: #fff;
     border: 1px solid #eaeaea;
     border-radius: 10px;
@@ -11,17 +11,17 @@
     transition: transform 0.2s;
   }
   
-  .location-card:hover {
+  .locationCard:hover {
     transform: scale(1.05);
   }
   
-  .location-card h4 {
+  .locationCard h4 {
     font-size: 1.2rem;
     font-weight: 600;
   }
   
-  .location-card p {
-    font-size: 0.9rem;
+  .locationCard p {
+    font-size: 1rem;
     color: #555;
   }
   

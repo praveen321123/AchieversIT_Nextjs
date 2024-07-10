@@ -1,0 +1,71 @@
+.footer {
+    background-color: #000;
+    color: #fff;
+  }
+  
+  .footer a {
+    color: #ccc;
+    text-decoration: none;
+  }
+  
+  .footer a:hover {
+    color: #fff;
+    text-decoration: underline;
+  }
+  
+  .footer h5 {
+    color: #ccc;
+    margin-bottom: 1rem;
+  }
+  
+  .footer .list-unstyled li {
+    margin-bottom: 0.5rem;
+  }
+  
+  .footer .list-inline-item a {
+    color: #ccc;
+    font-size: 1.25rem;
+    transition: color 0.3s;
+  }
+  
+  .footer .list-inline-item a:hover {
+    color: #fff;
+  }
+  
+  .footer address p,
+  .footer p {
+    margin-bottom: 0.5rem;
+    color: #727171 !important;
+    text-align: justify;
+  }
+  .icons{
+    position: relative;
+    bottom: 30px;
+  }
+
+  .icons i{
+    font-size: 1.25rem;
+    background-color: #fff;
+    color: #000;
+    padding: 10px;
+    border-radius: 80px;
+    margin: 2px;
+  }
+
+  .footer .company{
+    position: relative;
+    left: 70px;
+    bottom: 12px;
+  }
+
+  .footer .rights{
+    position: relative;
+    bottom: 40px;
+  }
+  .footer .rights p{
+    text-align: end;
+  }
+  .footer .rights li{
+    margin-right: 25px;
+    font-weight: bold;
+  }

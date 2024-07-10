@@ -1,11 +1,23 @@
-/* components/Footer.module.css */
 .footer {
-    background-color: black;
-    color: white;
-    padding: 10px;
-  }
-  
-  .footer .bi {
-    font-size: 1.5rem;
-  }
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+.footer span{
+  font-size: 1.25rem; 
+}
+.footer i {
+  font-size: 2.5rem;
+  margin-right: 5px;
+}
+.footer .text-lightblue{
+  color: #007bff;
+}
+.footer .text-orangered{
+  color: orangered;
+}
+.footer .text-light-green{
+  color: lightgreen;
+}
+
   

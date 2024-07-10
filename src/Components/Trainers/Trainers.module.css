@@ -1,12 +1,18 @@
-/* components/Trainers.module.css */
 .trainerCard {
-    transition: transform 0.3s ease;
-  }
+  transition: transform 0.3s ease;
+}
   
-  .trainerCard:hover {
-    transform: scale(1.05);
-  }
-  
+.trainerCard:hover {
+  transform: scale(1.05);
+}
+.innerBody{
+  background-image: url(../../../public/icons/Company_BG.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+  padding: 20px;
+}
   .card-body {
     display: flex;
     flex-direction: column;

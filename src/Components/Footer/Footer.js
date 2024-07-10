@@ -7,15 +7,15 @@ const Footer = () => {
     <div className={`fixed-bottom ${styles.footer}`}>
       <div className="container d-flex justify-content-around py-2">
         <div className="d-flex align-items-center">
-          <i className="bi bi-telephone-fill text-primary me-2"></i>
+          <i class={`${styles['text-lightblue']} fas fa-phone-volume`}></i>
           <span>Call us on: +91 8151000080</span>
         </div>
         <div className="d-flex align-items-center">
-          <i className="bi bi-envelope-fill text-warning me-2"></i>
+          <i class={`${styles['text-orangered']} far fa-envelope`}></i>
           <span>Request A Call Back</span>
         </div>
         <div className="d-flex align-items-center">
-          <i className="bi bi-whatsapp text-success me-2"></i>
+          <i class={`${styles['text-light-green']} fab fa-whatsapp`}></i>
           <span>Chat With Us!</span>
         </div>
       </div>

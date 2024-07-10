@@ -4,10 +4,7 @@ import AchieversITBusiness from './AchieversITBusiness';
 const Business = () => {
   return (
     <div>
-
-      {/* Other components/content */}
       <AchieversITBusiness />
-      {/* Other components/content */}
     </div>
   );
 };

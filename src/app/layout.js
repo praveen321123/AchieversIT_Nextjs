@@ -1,7 +1,6 @@
 import MainHeader from "@/Components/header/main-header";
-import "bootstrap/dist/css/bootstrap.min.css"
+import "bootstrap/dist/css/bootstrap.min.css";
 import "./globals.css";
-import Head from "next/head";
 
 export const metadata = {
   title: "AchieversIT-Best Tech Training Institutions in India",

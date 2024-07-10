@@ -1,48 +1,42 @@
 .reviewCard {
-    width: 18rem;
-    border: none;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin: 1rem;
-    color: white !important;
-  }
-  
-  .cardHead {
-    padding: 1rem;
-    background: linear-gradient(to right, #ff416c, #ff4b2b); /* Update per card type */
-    color: white;
-  }
-  
-  .initialCircle {
-    background-color: white;
-    border-radius: 50%;
-    color: #ff416c; /* Update per card type */
-    display: inline-block;
-    font-size: 1.5rem;
-    height: 50px;
-    line-height: 50px;
-    text-align: center;
-    width: 50px;
-  }
-  
-  .userName {
-    font-weight: bold;
-    margin-left: 1rem;
-  }
-  
-  .cardBody {
-    background: white;
-    padding: 1rem;
-    color: black;
-  }
-  
-  .stars {
-    color: #ffb400;
-    font-size: 1rem;
-  }
-  
-  .readMore {
-    color: #007bff;
-    text-decoration: none;
-  }
+  width: 18rem;
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 1rem;
+  color: white !important;
+}  
+.cardHead {
+  padding: 1rem;
+  background: linear-gradient(to right, #ff416c, #ff4b2b); /* Update per card type */
+  color: white;
+}
+.initialCircle {
+  background-color: white;
+  border-radius: 50%;
+  color: #ff416c; /* Update per card type */
+  display: inline-block;
+  font-size: 1.5rem;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  width: 50px;
+} 
+.userName {
+  font-weight: bold;
+  margin-left: 1rem;
+}
+.cardBody {
+  background: white;
+  padding: 1rem;
+  color: black;
+}
+.stars {
+  color: #ffb400;
+  font-size: 1rem;
+}  
+.readMore {
+  color: #007bff;
+  text-decoration: none;
+}
   
   

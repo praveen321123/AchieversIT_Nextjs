@@ -1,44 +1,39 @@
-  
-  .icon {
-    width: 50px;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.5rem;
-    margin: 0 auto;
-  }
-
-  .job-card {
-    background: url('../../../public/icons/JobOpenings_BG.jpg') no-repeat center left / cover;
-    color: white;
-    border: none;
-    transition: transform 0.3s ease;
-    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
-    height: 150px;
-    width: 500px;
-  }
-  .job-card i{
-    color: orangered;
-    font-size: 20px;
-  }
-  
-  .job-card.active {
-    transform: scale(1.05);
-  }
-  
-  .job-description {
-    background: rgba(255, 255, 255, 0.8);
-    color: black;
-    padding: 10px;
-    border-radius: 5px;
-  }
-  
-  .job-card button {
-    position: absolute;
-    bottom: 15px;
-    right: 15px;
-    background: none;
-    border: none;
-  }
+.icon {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  margin: 0 auto;
+}
+.job-card {
+  background: url('../../../public/icons/JobOpenings_BG.jpg') no-repeat center left / cover;
+  color: white;
+  border: none;
+  transition: transform 0.3s ease;
+  box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+  height: 150px;
+  width: 500px;
+}
+.job-card i{
+  color: orangered;
+  font-size: 20px;
+}  
+.job-card.active {
+  transform: scale(1.05);
+}  
+.job-description {
+  background: rgba(255, 255, 255, 0.8);
+  color: black;
+  padding: 10px;
+  border-radius: 5px;
+} 
+.job-card button {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  background: none;
+  border: none;
+}
   

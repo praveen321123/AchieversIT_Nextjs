@@ -1,17 +1,17 @@
 import Cards from "@/Components/courseCards/cards";
 import Carousel from "@/Components/carousel/carousel";
 import CategoryMain from "@/Components/discover-categories/categoryMain";
-import CardSection from "@/Components/Cards/cards";
-import ContactBanner from "@/Components/ContactUsBanner/ContactBanner";
+import CardSection from "@/Components/Cards/CardSection";
 import Edges from "@/Components/Edges/Edges";
 import TopAIT from "@/Components/WeAreTop/TopAIT";
-import TrainersComp from "@/Components/Trainers/TrainersComp";
-import Openings from "@/Components/JobOpenings/Openings";
-import Business from "@/Components/AchieversITBusiness/Business";
 import Clients from "@/Components/AITClients/Clients";
 import Locations from "@/Components/Locations/Location";
 import AITFooter from "@/Components/AITFooter/AITFooter";
 import Footer from "@/Components/Footer/Footer";
+import AchieversITBusiness from "@/Components/AchieversITBusiness/AchieversITBusiness";
+import ContactUsBanner from "@/Components/ContactUsBanner/ContactUsBanner";
+import JobOpenings from "@/Components/JobOpenings/JobOpenings";
+import Trainers from "@/Components/Trainers/Trainers";
 
 // import Reviews from "@/Components/reviews/Reviews";
 
@@ -23,12 +23,12 @@ export default function Home() {
       <Cards />
       <CategoryMain />
       {/* <Reviews /> */}
-      <ContactBanner />
+      <ContactUsBanner />
       <Edges />
       <TopAIT />
-      <TrainersComp />
-      <Openings />
-      <Business />
+      <Trainers />
+      <JobOpenings />
+      <AchieversITBusiness />
       <Clients />
       <Locations />
       <AITFooter />

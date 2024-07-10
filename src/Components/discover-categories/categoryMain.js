@@ -17,8 +17,8 @@ export default function CategoryMain() {
   ];
 
   return (
-      <div className="container mt-4">
-        <h2 className="text-uppercase fw-bold mb-4">Discover Top Categories</h2>
+    <div className="container mt-4">
+      <h2 className="text-uppercase fw-bold mb-4">Discover Top Categories</h2>
       <div className="row">
         {categories.map((category, index) => (
           <div key={index} className="col-md-2 col-sm-4">

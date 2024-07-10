@@ -1,4 +1,3 @@
-// components/AchieversEdge.js
 import React from 'react';
 import styles from './AchieversEdge.module.css';
 

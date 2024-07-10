@@ -1,7 +1,5 @@
-// components/Trainers.js
 import React from 'react';
 import styles from './Trainers.module.css';
-
 
 const Trainers = () => {
   const trainers = [

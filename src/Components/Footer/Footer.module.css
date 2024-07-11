@@ -2,22 +2,77 @@
   background-color: black;
   color: white;
   padding: 10px;
+  text-align: center;
 }
-.footer span{
-  font-size: 1.25rem; 
+
+.footer span {
+  font-size: 1.25rem;
 }
+
 .footer i {
   font-size: 2.5rem;
   margin-right: 5px;
 }
-.footer .text-lightblue{
+
+.footer .text-lightblue {
   color: #007bff;
 }
-.footer .text-orangered{
+
+.footer .text-orangered {
   color: orangered;
 }
-.footer .text-light-green{
+
+.footer .text-light-green {
   color: lightgreen;
 }
+
+/* Responsive styles */
+@media (max-width: 767px) {
+  .footer{
+    width: 375px;
+    padding: 2px;
+  }
+  .footerRow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer .row {
+    flex-direction: row;  
+    text-align: center;
+  }
+  .footer span{
+    display: none;
+  }
+
+  .footer .col-md-4 {
+    margin-bottom: 15px;
+  }
+  .footer i {
+    font-size: 2rem;
+    margin-right: 5px;
+  }
+}
+
+@media (min-width: 768px) {
+  .footer .row {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .footer .col-md-4 {
+    flex: 1;
+  }
+}
+
+
+/* @media only screen and (max-width:420px) {
+  .footer{
+    width: 375px;
+  }
+  .footer span{
+    display: none;
+  }
+} */
 
   

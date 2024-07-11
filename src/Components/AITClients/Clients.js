@@ -1,18 +1,18 @@
 import styles from"./Client.module.css"
 
 const clients = [
-    { name: 'HCL', image: '/icons/hcl.png' },
-    { name: 'Cognizant', image: '/icons/cognizant.png' },
-    { name: 'Infosys', image: '/icons/infosys.png' },
-    { name: 'Accenture', image: '/icons/accenture.png' },
-    { name: 'Oracle', image: '/icons/oracle.png' },
-    { name: 'IBM', image: '/icons/ibm.png' },
-    { name: 'Wipro', image: '/icons/wipro.png' },
-    { name: 'Amazon', image: '/icons/amazon.png' },
-    { name: 'Flipkart', image: '/icons/flipcart.png' },
-    { name: 'Visa', image: '/icons/visa.png' },
-    { name: 'Cisco', image: '/icons/cisco.png' },
-    { name: 'Dell', image: '/icons/dell.png' }
+    { name: 'HCL', image: '/images/hcl.png' },
+    { name: 'Cognizant', image: '/images/cognizant.png' },
+    { name: 'Infosys', image: '/images/infosys.png' },
+    { name: 'Accenture', image: '/images/accenture.png' },
+    { name: 'Oracle', image: '/images/oracle.png' },
+    { name: 'IBM', image: '/images/ibm.png' },
+    { name: 'Wipro', image: '/images/wipro.png' },
+    { name: 'Amazon', image: '/images/amazon.png' },
+    { name: 'Flipkart', image: '/images/flipcart.png' },
+    { name: 'Visa', image: '/images/visa.png' },
+    { name: 'Cisco', image: '/images/cisco.png' },
+    { name: 'Dell', image: '/images/dell.png' }
   ];
   
   const Clients = () => (

@@ -17,3 +17,26 @@
   position: relative;
   bottom: 80px;
 }
+
+/* Responsive styles */
+@media (max-width: 767px) {
+  .banner Image{
+    width: 50px !important;
+  }
+}
+
+/* @media (min-width: 768px) {
+
+} */
+
+
+/* Responsive styles */
+@media (max-width: 767px) {
+  
+}
+
+/* @media (min-width: 768px) {
+
+} */
+
+

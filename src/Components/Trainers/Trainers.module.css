@@ -6,7 +6,7 @@
   transform: scale(1.05);
 }
 .innerBody{
-  background-image: url(../../../public/icons/Company_BG.jpg);
+  background-image: url("../../../public/images/Company_BG.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

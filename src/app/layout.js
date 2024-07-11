@@ -1,4 +1,5 @@
 import MainHeader from "@/Components/header/main-header";
+import Footer from "@/Components/Footer/Footer";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./globals.css";
 
@@ -19,7 +20,7 @@ export default function RootLayout({ children }) {
         <div className="header-background">
           <MainHeader/> 
         </div>
-        
+        <Footer />
         {children}
       </body>
     </html>

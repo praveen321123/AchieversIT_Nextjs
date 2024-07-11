@@ -8,7 +8,7 @@
   margin: 0 auto;
 }
 .job-card {
-  background: url('../../../public/icons/JobOpenings_BG.jpg') no-repeat center left / cover;
+  background: url('../../../public/images/JobOpenings_BG.jpg') no-repeat center left / cover;
   color: white;
   border: none;
   transition: transform 0.3s ease;

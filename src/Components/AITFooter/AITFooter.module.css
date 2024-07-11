@@ -61,3 +61,14 @@
   margin-right: 25px;
   font-weight: bold;
 }
+
+/* Responsive styles */
+@media (max-width: 767px) {
+  .footer .company{
+    left: 0%;
+  }
+}
+
+/* @media (min-width: 768px) {
+
+} */

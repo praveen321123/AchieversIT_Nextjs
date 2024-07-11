@@ -18,3 +18,22 @@
   gap: 1.5rem;
   font-size: 15px;
 }
+
+
+/* Responsive styles */
+@media (max-width: 767px) {
+  .navbar ul{
+    padding: 0px;
+    left: 20px;
+    margin-top: 25px;
+  }
+}
+
+/* @media (min-width: 768px) {
+  
+} */
+
+
+
+
+

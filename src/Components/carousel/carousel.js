@@ -21,35 +21,35 @@ export default function Carousel() {
         <div className={`${styles.banner} carousel-inner`}>
           <div className="carousel-item active">
             <Image src={angular_banner} className="d-block w-100" alt="Angular-Trainings" />
-            <div className="carousel-caption d-none d-md-block">
+            <div className="carousel-caption d-md-block">
               <h1>ANGULAR DEVELOPMENT COURSE</h1>
               <Link href="#"><button className={`${styles['btn-orangered']} px-3 `}>EXPLORE COURSE</button></Link>
             </div>
           </div>
           <div className="carousel-item">
             <Image src={React_banner} className="d-block w-100" alt="React-Trainings" />
-            <div className="carousel-caption d-none d-md-block">
+            <div className="carousel-caption d-md-block">
               <h1>REACTJS DEVELOPMENT COURSE</h1>
               <Link href="#"><button className={`${styles['btn-orangered']} px-3`}>EXPLORE COURSE</button></Link>
             </div>
           </div>
           <div className="carousel-item">
             <Image src={Python_banner} className="d-block w-100" alt="Python-Trainings" />
-            <div className="carousel-caption d-none d-md-block">
+            <div className="carousel-caption d-md-block">
               <h1>PYTHON DEVELOPMENT COURSE</h1>
               <Link href="#"><button className={`${styles['btn-orangered']} px-3`}>EXPLORE COURSE</button></Link>
             </div>
           </div>
           <div className="carousel-item">
             <Image src={AWS_banner} className="d-block w-100" alt="AWS-development" />
-            <div className="carousel-caption d-none d-md-block">
+            <div className="carousel-caption d-md-block">
               <h1>AMAZON WEB SERVICE COURSE</h1>
               <Link href="#"><button className={`${styles['btn-orangered']} px-3`}>EXPLORE COURSE</button></Link>
             </div>
           </div>
           <div className="carousel-item">
             <Image src={Web_dev_banner} className="d-block w-100" alt="Web_development" />
-            <div className="carousel-caption d-none d-md-block">
+            <div className="carousel-caption d-md-block">
               <h1>WEB DEVELOPMENT COURSE</h1>
               <Link href="#"><button className={`${styles['btn-orangered']} px-3`}>EXPLORE COURSE</button></Link>
             </div>

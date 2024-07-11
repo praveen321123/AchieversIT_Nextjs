@@ -3,16 +3,16 @@ import styles from './Trainers.module.css';
 
 const Trainers = () => {
   const trainers = [
-    { name: 'Cognizant', logo: '/icons/cognizant.png' },
-    { name: 'HCL', logo: '/icons/hcl.png' },
-    { name: 'Infosys', logo: '/icons/infosys.png' },
-    { name: 'Accenture', logo: '/icons/accenture.png' },
-    { name: 'Oracle', logo: '/icons/oracle.png' },
-    { name: 'IBM', logo: '/icons/ibm.png' },
-    { name: 'Amazon', logo: '/icons/amazon.png' },
-    { name: 'Visa', logo: '/icons/visa.png' },
-    { name: 'Flipcart', logo: '/icons/flipcart.png' },
-    { name: 'Dell', logo: '/icons/dell.png' },
+    { name: 'Cognizant', logo: '/images/cognizant.png' },
+    { name: 'HCL', logo: '/images/hcl.png' },
+    { name: 'Infosys', logo: '/images/infosys.png' },
+    { name: 'Accenture', logo: '/images/accenture.png' },
+    { name: 'Oracle', logo: '/images/oracle.png' },
+    { name: 'IBM', logo: '/images/ibm.png' },
+    { name: 'Amazon', logo: '/images/amazon.png' },
+    { name: 'Visa', logo: '/images/visa.png' },
+    { name: 'Flipcart', logo: '/images/flipcart.png' },
+    { name: 'Dell', logo: '/images/dell.png' },
   ];
   return (
     <div className="container mt-5">

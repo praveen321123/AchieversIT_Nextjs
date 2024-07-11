@@ -1,4 +1,5 @@
 import CourseCard from './courseCard';
+import styles from './courseCard.module.css'
 
 export default function Cards() {
   const courses = [
@@ -119,7 +120,7 @@ export default function Cards() {
   ]
 
   return (
-    <div className="container mt-4">
+    <div className={`${styles['course-container']} container mt-4`}>
       <div className='row'>
         <h2 className="text-uppercase fw-bold">Trending Courses</h2>
       </div>

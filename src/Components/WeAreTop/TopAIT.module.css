@@ -1,0 +1,68 @@
+.Top-container{
+  background-image: url("../../../public/images/TOP10_BG.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px 20px;
+  margin: 20px 0px;
+}
+.inner-container{
+  color: #0c5397;
+}
+.inner-container h2{
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.statCard {
+  margin-bottom: 20px;
+}
+.statCard section{
+  box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.15);
+  background-color: rgba(255, 255, 255, 0.772);
+  transition: transform 0.5s ease;
+}
+
+.statCard section:hover {
+  transform: scale(1.1);
+}
+.statCard h3{
+  color: #0c5397 ;
+  font-size: 3.25rem;
+  font-weight: bold;
+}
+.statCard p {
+  font-size: 1rem;
+  padding: 0 20px;
+  color: #666 !important;
+}
+/* Card_1 and Card_3 */
+.card_1:hover,
+.card_3:hover {
+  background: linear-gradient(to right, #0c5397, #3d90de);
+  color: #fff !important;
+}
+
+.card_1:hover h3,
+.card_1:hover p,
+.card_3:hover h3,
+.card_3:hover p {
+  color: inherit !important;
+}
+/* Card_2 and Card_4 */
+.card_2:hover,
+.card_4:hover {
+  background: linear-gradient(to right, #ef924f, #fb5401);
+  color: #fff !important;
+}
+.card_2:hover h3,
+.card_2:hover p,
+.card_4:hover h3,
+.card_4:hover p {
+  color: inherit !important;
+}
+@media (max-width:767px){
+  .inner-container h2{
+    font-size: 1.75rem;
+  }
+}
+  

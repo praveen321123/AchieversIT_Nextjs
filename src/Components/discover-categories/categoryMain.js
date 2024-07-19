@@ -1,4 +1,5 @@
 import CategoryCard from './categoryCard';
+import Styles from './categoryCard.module.css'
 
 export default function CategoryMain() {
   const categories = [
@@ -17,14 +18,16 @@ export default function CategoryMain() {
   ];
 
   return (
-    <div className="container mt-4">
-      <h2 className="text-uppercase fw-bold mb-4">Discover Top Categories</h2>
+    <div className={`${Styles.mainContainer} container mt-4`}>
+      <h2 className="fw-bold mb-4">Discover Top Categories</h2>
+      <div className={`${Styles.innerContainer}`}>
       <div className="row">
         {categories.map((category, index) => (
-          <div key={index} className="col-md-2 col-sm-4">
+          <div key={index} className={`${Styles.cardItems} col-md-2 col-4`}>
             <CategoryCard icon={category.icon} title={category.title} />
           </div>
         ))}
+      </div>
       </div>
     </div>
   );

@@ -15,11 +15,11 @@ const Trainers = () => {
     { name: 'Dell', logo: '/images/dell.png' },
   ];
   return (
-    <div className="container mt-5">
+    <div className={`${styles.mainContainer} container mt-5`}>
       <h2 className="fw-bold mb-5">Our Trainers From</h2>
       <div className="row text-center">
         {trainers.map((trainer, index) => (
-          <div key={index} className={`col-md-3 mb-4 ${styles.trainerCard}`}>
+          <div key={index} className={`col-md-3 col-6 mb-4 ${styles.trainerCard}`}>
             <div className="card h-100 rounded-0 border-0">
               <div className={`card-body ${styles.innerBody}`}>
                 <img src={trainer.logo} alt={trainer.name} className={styles.logo} />

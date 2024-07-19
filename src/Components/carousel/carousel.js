@@ -20,7 +20,7 @@ export default function Carousel() {
         </div>
         <div className={`${styles.banner} carousel-inner`}>
           <div className="carousel-item active">
-            <Image src={angular_banner} className="d-block w-100" alt="Angular-Trainings" />
+            <Image src={angular_banner} className="d-block w-100" alt="Angular-Trainings"/>
             <div className="carousel-caption d-md-block">
               <h1>ANGULAR DEVELOPMENT COURSE</h1>
               <Link href="#"><button className={`${styles['btn-orangered']} px-3 `}>EXPLORE COURSE</button></Link>

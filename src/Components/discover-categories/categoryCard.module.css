@@ -1,16 +1,51 @@
 .card {
   min-height: 131px !important;
-  width: 8rem;
+  max-height: 131px !important;
+  width: 6.5rem;
   border: none;
   border-radius: 0px;
   margin: 1.5rem 0.5rem;
-  box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28)
+  box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+}
+
+.card:hover{
+  transform: scale(1.1);
+}
+.innerContainer{
+  padding: 25px 125px;
 }
 .card h5{
+  font-weight: bold;
   font-size: 12px;
+  width: 80px;
+  position: relative;
+  right: 2px;
 }  
 .icon {
   width: 50px;
   height: 50px;
 }
-  
+
+/* Responsive Styles */
+@media (max-width:767px) {
+.innerContainer{
+  padding: 0px;
+}
+  .mainContainer h2{
+    text-align: center;
+    font-size: 2rem;
+    width: 330px;
+    position: relative;
+    left: 10px;
+    border-bottom: 1px solid black;
+    padding-bottom: 15px;
+  }
+  .card {
+    min-height: 120px !important;
+    max-height: 120px !important;
+    width: 6.25rem;
+  }
+  .cardItems{
+    width: 30%;
+  }
+}

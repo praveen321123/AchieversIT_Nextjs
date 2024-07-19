@@ -1,5 +1,5 @@
 import WeAreTop from './WeAreTop';
-import styles from './Statistics.module.css';
+import styles from './TopAIT.module.css';
 
 export default function TopAIT() {
   return (

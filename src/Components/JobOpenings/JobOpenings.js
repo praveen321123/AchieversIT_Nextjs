@@ -44,11 +44,11 @@ const JobOpenings = () => {
   };
 
   return (
-    <div className="container py-5">
+    <div className={`${styles.mainContainer} container py-5`}>
       <h2 className="fw-bold mb-4">Latest Job Openings</h2>
       <div className="row mt-4 ms-3">
         {jobs.map((job, index) => (
-          <div className="col-md-6 mb-4" key={index}>
+          <div className="col-md-6 col-12 mb-4" key={index}>
             <div className={`card mt-3 ${styles["job-card"]} ${activeIndex === index ? 'active' : ''}`}>
               <div className="card-body ">
                 <h4 className="card-title fw-bold">{job.title}</h4>

@@ -5,10 +5,10 @@ import ait_img from "@/assests/logo-white.png"
 
 const AITFooter = () => {
   return (
-    <footer className={`${styles.footer} py-5 ps-3`}>
+    <footer className={`${styles.footer} py-5 px-4`}>
       <div className="container-fluid">
-        <div className="row">
-          <div className="col-md-3">
+        <div className="row border-bottom">
+          <div className={`${styles.description} col-md-3`}>
           <Image src={ait_img} className="mb-3" alt="AchieversIT" priority/>
             <p>
               AchieversIT - Provides a wide group of opportunities for freshers and Experienced
@@ -16,7 +16,7 @@ const AITFooter = () => {
               multiple Companies.
             </p>
           </div>
-          <div className={`${styles.company} col-md-3 mt-3 `}>
+          <div className={`${styles.company} col-md-3 mt-1 `}>
             <h5>COMPANY</h5>
             <ul className="list-unstyled">
               <li><a href="#">Home</a></li>
@@ -25,7 +25,7 @@ const AITFooter = () => {
               <li><a href="#">Contact US</a></li>
             </ul>
           </div>
-          <div className="col-md-3">
+          <div className={`${styles.trending} col-md-3`}>
             <h5>TRENDING COURSES</h5>
             <ul className="list-unstyled">
               <li><a href="#">UI Development Course</a></li>
@@ -38,30 +38,54 @@ const AITFooter = () => {
           <div className="col-md-3">
             <h5>CONTACT INFO</h5>
             <address>
-              <p>
+              <p className='py-1'>
                 #63, 1<sup>st</sup> Floor, 16<sup>th</sup> Main, 8<sup>th</sup> Cross, BTM 1<sup>st</sup> Stage,
                 Bangalore, India - 560029
               </p>
-              <p>India: +91 8431-040-457</p>
+              <p className='py-1'>India: +91 8431-040-457</p>
               <p><a href="mailto:info@achieversit.com">info@achieversit.com</a></p>
             </address>
           </div>
-        </div><hr className='text-white'/>
+        </div>
         <div className="row mt-5">
           <div className={`${styles.icons} col-md-12 text-center`}>
             <ul className="list-inline">
-              <li className="list-inline-item"><a href="#"><i className="fab fa-facebook-f"></i></a></li>
-              <li className="list-inline-item"><a href="#"><i className="fab fa-instagram"></i></a></li>
-              <li className="list-inline-item"><a href="#"><i className="fab fa-linkedin-in"></i></a></li>
-              <li className="list-inline-item"><a href="#"><i className="fab fa-twitter"></i></a></li>
-              <li className="list-inline-item"><a href="#"><i className="fab fa-pinterest"></i></a></li>
-              <li className="list-inline-item"><a href="#"><i className="fab fa-youtube"></i></a></li>
+              <li className="list-inline-item">
+                <a href="#" className={`${styles['facebook-icon']}`}>
+                  <i className="fab fa-facebook-f"></i>
+                </a>
+              </li>
+              <li className="list-inline-item">
+                <a href="#" className={`${styles['instagram-icon']}`}>
+                  <i className="fab fa-instagram"></i>
+                </a>
+              </li>
+              <li className="list-inline-item">
+                <a href="#" className={`${styles['linkedin-icon']}`}>
+                  <i className="fab fa-linkedin-in"></i>
+                </a>
+              </li>
+              <li className="list-inline-item">
+                <a href="#" className={`${styles['twitter-icon']}`}>
+                  <i className="fab fa-twitter"></i>
+                </a>
+              </li>
+              <li className="list-inline-item">
+                <a href="#" className={`${styles['pinterest-icon']}`}>
+                  <i className="fab fa-pinterest"></i>
+                </a>
+              </li>
+              <li className="list-inline-item">
+                <a href="#" className={`${styles['youtube-icon']}`}>
+                  <i className="fab fa-youtube"></i>
+                </a>
+              </li>
             </ul>
           </div>
         </div>
         <div className={`${styles.rights} row mt-3 `}>
           <div className="col-md-6">
-            <p className='fw-bold me-5'>Copyright &copy; 2024 AchieversIT. All Rights Reserved</p>
+            <p className='me-5 text-white-50'>Copyright &copy; 2024 AchieversIT. All Rights Reserved</p>
           </div>
           <div className="col-md-6">
             <ul className="list-inline">

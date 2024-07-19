@@ -21,22 +21,14 @@
 /* Responsive styles */
 @media (max-width: 767px) {
   .banner Image{
-    width: 50px !important;
+    width: 250px !important;
+  }
+  .banner h1{
+    font-size: x-large;
+    left: 0;
   }
 }
 
-/* @media (min-width: 768px) {
 
-} */
-
-
-/* Responsive styles */
-@media (max-width: 767px) {
-  
-}
-
-/* @media (min-width: 768px) {
-
-} */
 
 

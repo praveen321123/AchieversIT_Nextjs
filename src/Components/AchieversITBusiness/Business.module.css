@@ -1,6 +1,6 @@
 .banner {
   background-image: url("../../../public/images/business.png");
-  background-position:center;
+  background-position:left;
   background-size: cover;
   color: white;
   padding: 70px 20px;
@@ -24,5 +24,22 @@
 .button:hover {
   background: orangered;
   color: aliceblue;
+}
+
+/* responsive styles */
+
+@media (max-width:767px){
+  .banner {
+    padding: 40px 20px;
+  } 
+  .banner div{
+    margin-left: 10px;
+    text-align: center;
+  }   
+  .banner h2, .banner h5 {
+    margin-bottom: 30px !important;
+    font-size: .75rem;
+  }
+  
 }
   

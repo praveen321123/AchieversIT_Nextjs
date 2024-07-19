@@ -3,30 +3,30 @@
   color: #fff;
 }  
 .footer a {
-  color: #ccc;
+  color: #fff;
   text-decoration: none;
 }  
 .footer a:hover {
-  color: #fff;
-  text-decoration: underline;
+  color: orangered;
+  
 } 
 .footer h5 {
-  color: #ccc;
+  color: #aea2a2 !important;
   margin-bottom: 1rem;
+  font-weight: bold;
 }
 .footer .list-unstyled li {
   margin-bottom: 0.5rem;
 }
 .footer .list-inline-item a {
-  color: #ccc;
+  color: #fff !important;
   font-size: 1.25rem;
   transition: color 0.3s;
 }  
 .footer .list-inline-item a:hover {
   color: #fff;
 }  
-.footer address p,
-.footer p {
+.footer .description {
   margin-bottom: 0.5rem;
   color: #727171 !important;
   text-align: justify;
@@ -36,18 +36,28 @@
   bottom: 30px;
 }
 .icons i{
+  display: inline-block;
   font-size: 1.25rem;
   background-color: #fff;
   color: #000;
+  width: 40px;
   padding: 10px;
   border-radius: 80px;
   margin: 2px;
+  transition: transform 0.8s ease;
+
+}
+.icons i:hover{
+ transform: rotate(360deg);
+
 }
 
 .footer .company{
   position: relative;
-  left: 70px;
-  bottom: 12px;
+  left: 40px;
+}
+.company li, .trending li{
+  margin-bottom: .5rem;
 }
 
 .footer .rights{
@@ -59,13 +69,97 @@
 }
 .footer .rights li{
   margin-right: 25px;
-  font-weight: bold;
 }
+
+/* icon Styles */
+.list-inline-item a {
+  display: inline-block;
+  padding: 10px;
+  border-radius: 50%;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.list-inline-item a i {
+  transition: color 0.3s ease;
+}
+
+/* Facebook */
+.facebook-icon i:hover {
+  background-color: #3b5998;
+  color: white;
+}
+.facebook-icon:hover i {
+  color: white;
+}
+
+/* Instagram */
+.instagram-icon i:hover {
+  background-color: #e1306c;
+  color: white;
+}
+.instagram-icon:hover i {
+  color: white;
+}
+
+/* LinkedIn */
+.linkedin-icon i:hover {
+  background-color: #0077b5;
+  color: white;
+}
+.linkedin-icon:hover i {
+  color: white;
+}
+
+/* Twitter */
+.twitter-icon i:hover {
+  background-color: #1da1f2;
+  color: white;
+}
+.twitter-icon:hover i {
+  color: white;
+}
+
+/* Pinterest */
+.pinterest-icon i:hover {
+  background-color: #bd081c;
+  color: white;
+}
+.pinterest-icon:hover i {
+  color: white;
+}
+
+/* YouTube */
+.youtube-icon i:hover {
+  background-color: #ff0000;
+  color: white;
+}
+.youtube-icon:hover i {
+  color: white;
+}
+
 
 /* Responsive styles */
 @media (max-width: 767px) {
   .footer .company{
     left: 0%;
+    border-bottom: 1px solid white;
+    padding: 20px 0px;
+  }
+  .footer .description{
+    border-bottom: 1px solid white;
+    padding: 0px 0px 15px 0px;
+  }
+  .footer .trending{
+    left: 0%;
+    border-bottom: 1px solid white;
+    padding: 20px 0px;
+    margin-bottom: 20px;
+  }
+  .icons ul{
+    width: 305px;
+  }
+  .footer .rights{
+    text-align: center;
   }
 }
 

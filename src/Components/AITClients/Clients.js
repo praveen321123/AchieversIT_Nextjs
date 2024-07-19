@@ -18,9 +18,9 @@ const clients = [
   const Clients = () => (
     <div className={`${styles.mainContainer} container py-5`}>
       <h2 className="fw-bold mb-5">Our Corporate Clients</h2>
-      <div className="row my-4 text-center">
+      <div className="row text-center">
         {clients.map((client, index) => (
-          <div className="col-md-2 col-sm-6 mb-4" key={index}>
+          <div className="col-md-2 col-6 mb-4 d-flex align-items-center justify-content-center" key={index}>
             <img src={client.image} alt={client.name} className={`${styles.clientImg} img-fluid`} />
           </div>
         ))}

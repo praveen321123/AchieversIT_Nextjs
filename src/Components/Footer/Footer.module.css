@@ -29,7 +29,7 @@
 /* Responsive styles */
 @media (max-width: 767px) {
   .footer{
-    width: 375px;
+    /* width: 375px; */
     padding: 2px;
   }
   .footerRow{
@@ -37,16 +37,11 @@
     align-items: center;
     justify-content: center;
   }
-  .footer .row {
-    flex-direction: row;  
-    text-align: center;
-  }
   .footer span{
     display: none;
   }
-
-  .footer .col-md-4 {
-    margin-bottom: 15px;
+  .footerRow div{
+    width: 25% !important;
   }
   .footer i {
     font-size: 2rem;
@@ -54,7 +49,7 @@
   }
 }
 
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
   .footer .row {
     display: flex;
     justify-content: space-around;
@@ -63,7 +58,7 @@
   .footer .col-md-4 {
     flex: 1;
   }
-}
+} */
 
 
 /* @media only screen and (max-width:420px) {

@@ -9,6 +9,8 @@
   transition: transform 0.1s ease, box-shadow 0.1s ease;
   padding: 10px;
   text-align: center;
+  min-height: 150px;
+  max-height: 170px;
 }  
 .card-hover:hover {
   box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
@@ -23,4 +25,31 @@
 }
 .card-hover .circle{
   color: #ef32d9;
+}
+
+@media (max-width:767px){
+  .icon {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 15px;
+  }
+  .mainContainer h2{
+    text-align: center;
+    font-size: 2rem;
+    width: 350px;
+    border-bottom: 1px solid black;
+    padding-bottom: 15px;
+    margin-bottom: 40px !important;
+  }
+  .card-hover{
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+    max-height: 150px;
+  }
+  .card-hover p{
+    font-size: small;
+  }
+  .card-hover h6 {
+    font-size: 0.90rem;
+  }
+
 }

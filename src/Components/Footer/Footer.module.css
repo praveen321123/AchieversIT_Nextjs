@@ -1,7 +1,7 @@
 .footer {
   background-color: black;
   color: white;
-  padding: 10px;
+  /* padding: 5px; */
   text-align: center;
 }
 
@@ -49,25 +49,16 @@
   }
 }
 
-/* @media (min-width: 768px) {
-  .footer .row {
-    display: flex;
-    justify-content: space-around;
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px){
+  .footer i {
+    font-size: 1.75rem;
+    margin-right: 5px;
   }
+  .footer span {
+    font-size: .80rem;
 
-  .footer .col-md-4 {
-    flex: 1;
   }
-} */
+}
 
-
-/* @media only screen and (max-width:420px) {
-  .footer{
-    width: 375px;
-  }
-  .footer span{
-    display: none;
-  }
-} */
 
   

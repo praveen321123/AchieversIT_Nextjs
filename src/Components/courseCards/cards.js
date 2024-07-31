@@ -126,7 +126,7 @@ export default function Cards() {
       </div>
       <div className="row p-0">
         {courses.map((course, index) => (
-          <div key={index} className={`${styles.courseCard} col-md-3`}>
+          <div key={index} className={`${styles.courseCard} col-lg-3 col-md-4 col-12`}>
             <CourseCard {...course} />
           </div>
         ))}
@@ -136,7 +136,7 @@ export default function Cards() {
       </div>
       <div className="row">
         {additions.map((course, index) => (
-          <div key={index} className={`${styles.courseCard} col-md-3`}>
+          <div key={index} className={`${styles.courseCard} col-lg-3 col-md-4 col-12`}>
             <CourseCard {...course} />
           </div>
         ))}

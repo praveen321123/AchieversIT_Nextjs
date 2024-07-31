@@ -7,7 +7,6 @@
 .cardHead {
   padding: 20px;
   color: white;
-  background: linear-gradient(to right, #fc6767, #ec008c);
 }
 .cardHead.Angular{
   background: linear-gradient(to right, #fc6767, #ec008c);
@@ -105,6 +104,43 @@
     width: 50%;
     position: relative;
     left: 20px;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px){
+  .card {
+    width: 14rem;
+  }
+  .card hr{
+    margin: 5px;
+  }
+  .cardHead {
+    padding: 10px;
+    color: white;
+  }
+  .cardHead img, .cardHead h5{
+    position: relative;
+    top: 5px;
+  }
+  .cardImage {
+    width: 70px;
+    height: 70px;
+  }
+  .cardTitle h5{
+    right: 15px;
+    font-size: 1rem !important;
+  }
+  .cardText {
+    font-size: 0.8rem;
+    word-spacing: 15px;
+    font-weight: 500;
+  } 
+
+  .cardFooter{
+    padding: 5px 1rem;
+  }
+  .cardFooter span{
+    font-size: small;
   }
 }
   

@@ -8,7 +8,7 @@ const CourseCard = ({ title, description, reviews, rating, isBestSeller, bestSel
       <div className="container p-0">
         <div className='row align-items-center'>
           <div className={`col-md-6 col-6 ${styles.cardImage}`}>
-          <img src={svgImage} alt={`${title} logo`} />
+            <img src={svgImage} alt={`${title} logo`} />
           </div>
           <div className={`col-md-6 col-6 ${styles.cardTitle}`}>
             <h5 className="card-title fw-bold text-uppercase fs-5">{title}</h5>

@@ -50,4 +50,33 @@
     width: 100px;
   }
 }
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px){
+  .card {
+    width: 220px;
+    height: 60px;
+  }
+  .card .rowOne{
+    position: relative;
+    bottom: 8px;
+    right: 13px;
+  }
+  .card span{
+    font-size: 0.75rem;
+  }
+  .card b{
+    display: inline-block;
+    font-size: 0.65rem;
+    position: relative;
+    bottom: 8px;
+    width: 120px;
+  }
+  .know-more {
+    font-size: 0.65rem !important;
+    position: relative;
+    left: 10px;
+    bottom: 15px;
+    width: 70px;
+  }
+}
   

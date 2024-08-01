@@ -18,5 +18,14 @@
 }
 
 /* Responsive Styles */
+@media (min-device-width: 768px) and (max-device-width: 1024px){
+  .locationCard{
+    max-width: 210px !important;
+    max-height: 160px !important;
+  }
+  .locationCard p {
+    font-size: .7rem;
+  } 
+}
 
   

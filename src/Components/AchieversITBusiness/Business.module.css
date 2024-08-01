@@ -42,4 +42,22 @@
   }
   
 }
-  
+
+@media(min-device-width: 768px) and (max-device-width: 1024px){
+  .banner div{
+    margin-left: 30px;
+  } 
+  .banner h2{
+    padding: 10px 0;
+  }
+  .banner h5{
+    width: 35rem;
+    padding: 10px 0;
+  }
+  .button{
+    margin-top: 10px;
+  }
+  .banner{
+    padding: 30px 20px;
+  }
+}

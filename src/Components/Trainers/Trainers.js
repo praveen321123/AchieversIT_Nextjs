@@ -11,15 +11,18 @@ const Trainers = () => {
     { name: 'IBM', logo: '/images/ibm.png' },
     { name: 'Amazon', logo: '/images/amazon.png' },
     { name: 'Visa', logo: '/images/visa.png' },
+    { name: 'Wipro', logo: '/images/wipro.png' },
     { name: 'Flipcart', logo: '/images/flipcart.png' },
     { name: 'Dell', logo: '/images/dell.png' },
+    { name: 'Genpact', logo: '/images/genpact1.png' },
   ];
   return (
     <div className={`${styles.mainContainer} container mt-5`}>
       <h2 className="fw-bold mb-5">Our Trainers From</h2>
       <div className="row text-center">
         {trainers.map((trainer, index) => (
-          <div key={index} className={`col-md-3 col-6 mb-4 ${styles.trainerCard}`}>
+          <div key={index} className={`col-md-3 col-6 mb-4 ${styles.trainerCard} ${['Wipro', 'Genpact'].includes(trainer.name) ? 'd-lg-none d-md-block' : ''
+          }`}>
             <div className="card h-100 rounded-0 border-0">
               <div className={`card-body ${styles.innerBody}`}>
                 <img src={trainer.logo} alt={trainer.name} className={styles.logo} />

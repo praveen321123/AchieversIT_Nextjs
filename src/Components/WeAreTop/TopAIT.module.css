@@ -65,4 +65,32 @@
     font-size: 1.75rem;
   }
 }
+
+@media(min-device-width: 768px) and (max-device-width: 1024px){
+  .statCard .card_1,
+  .statCard .card_2,
+  .statCard .card_3,
+  .statCard .card_4{
+    min-height: 120px !important;
+    max-height: 120px !important;
+    min-width: 160px;
+  }
+  .card_1 div{
+    margin-top: 10px;
+  }
+  .card_2 div,
+  .card_3 div,
+  .card_3 div{
+    padding: 15px 10px;
+  }
+  .statCard h3{
+    font-size: 1.5rem;
+  }
+  .statCard p {
+    font-size: 12px;
+    padding: 0;
+    text-align: center;
+    line-height: .9rem;
+  }
+}
   

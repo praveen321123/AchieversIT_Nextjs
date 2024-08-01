@@ -30,4 +30,10 @@
     background:orangered;
     color: white;
   }
+
+  @media(min-device-width: 768px) and (max-device-width: 1024px){
+  .banner h5{
+    padding: 0px 20px;
+  }
+  }
   

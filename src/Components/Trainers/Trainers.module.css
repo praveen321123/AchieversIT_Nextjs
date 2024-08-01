@@ -43,4 +43,13 @@
     border-bottom: 1px solid black;
     padding-bottom: 15px;
   }
+  .logo {
+    max-width: 50px;
+  }
+}
+
+@media(min-device-width: 768px) and (max-device-width: 1024px){
+  .logo {
+    max-width: 50px;
+  }
 }

@@ -8,7 +8,7 @@ const AITFooter = () => {
     <footer className={`${styles.footer} py-5 px-4`}>
       <div className="container-fluid">
         <div className="row border-bottom">
-          <div className={`${styles.description} col-md-3`}>
+          <div className={`${styles.description} col-md-12 col-lg-3`}>
           <Image src={ait_img} className="mb-3" alt="AchieversIT" priority/>
             <p>
               AchieversIT - Provides a wide group of opportunities for freshers and Experienced
@@ -16,7 +16,7 @@ const AITFooter = () => {
               multiple Companies.
             </p>
           </div>
-          <div className={`${styles.company} col-md-3 mt-1 `}>
+          <div className={`${styles.company} col-md-6 col-lg-3 mt-1 `}>
             <h5>COMPANY</h5>
             <ul className="list-unstyled">
               <li><a href="#">Home</a></li>
@@ -25,7 +25,7 @@ const AITFooter = () => {
               <li><a href="#">Contact US</a></li>
             </ul>
           </div>
-          <div className={`${styles.trending} col-md-3`}>
+          <div className={`${styles.trending} col-md-6 col-lg-3`}>
             <h5>TRENDING COURSES</h5>
             <ul className="list-unstyled">
               <li><a href="#">UI Development Course</a></li>
@@ -35,7 +35,7 @@ const AITFooter = () => {
               <li><a href="#">Python Course</a></li>
             </ul>
           </div>
-          <div className="col-md-3">
+          <div className="col-md-12 col-lg-3">
             <h5>CONTACT INFO</h5>
             <address>
               <p className='py-1'>
@@ -84,10 +84,10 @@ const AITFooter = () => {
           </div>
         </div>
         <div className={`${styles.rights} row mt-3 `}>
-          <div className="col-md-6">
+          <div className=" col-md-12 col-lg-6">
             <p className='me-5 text-white-50'>Copyright &copy; 2024 AchieversIT. All Rights Reserved</p>
           </div>
-          <div className="col-md-6">
+          <div className="col-md-12 col-lg-6">
             <ul className="list-inline">
               <li className="list-inline-item"><a href="#">Privacy Policy</a></li>
               <li className="list-inline-item"><a href="#">Terms of use</a></li>

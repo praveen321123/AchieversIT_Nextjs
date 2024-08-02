@@ -50,7 +50,7 @@ const JobOpenings = () => {
         {jobs.map((job, index) => (
           <div className="col-md-6 col-12 mb-4" key={index}>
             <div className={`card mt-3 ${styles["job-card"]} ${activeIndex === index ? 'active' : ''}`}>
-              <div className="card-body ">
+              <div className="card-body">
                 <h4 className="card-title fw-bold">{job.title}</h4>
                 <p className="card-text">Location: {job.location}</p>
                 {activeIndex === index && (

@@ -14,20 +14,63 @@
   cursor: pointer;
   width: 350px;
   height: 100px;
+  transition: transform 0.3s ease-in-out, background 0.3s ease-in-out, color 0.3s ease-in-out;
+  overflow: hidden;
+}
+
+.card span, 
+.card b, 
+.card .know-more{
+  transition: color 0.3s ease-in-out;
 }
   
 .know-more {
-  margin-top: 20px;
+  margin-top: 10px;
   font-weight: bold;
-  color:#0c5397;;
+  color:#0c5397;
   text-decoration: none;
-  width: 130px;
+  width: 120px;
+  text-align: center;
 }
 
+.know-more img{
+  width: 8px;
+  filter: brightness(0) saturate(100%) invert(11%) sepia(85%) saturate(3699%) hue-rotate(193deg) brightness(97%) contrast(108%);
+  transition: filter 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  color: white;
+}
+
+.card:hover span,
+.card:hover b,
+.card:hover .know-more {
+  color: white !important;
+}
+
+.card:hover .know-more img {
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(100%) contrast(100%);
+}
+
+.blue-background:hover {
+  background: linear-gradient(to right, #2c3e50, #2980b9);
+}
+
+.orange-background:hover {
+  background: linear-gradient(to right, #f7b733, #ff4700);
+}
+
+
+
 @media (max-width: 767px) {
+  .cardContainer{
+    bottom: 30px;
+  }
   .card {
     width: 350px;
-    height: 60px;
+    height: 65px;
   }
   .card span{
     font-size: 0.75rem;
@@ -45,13 +88,19 @@
   .know-more {
     font-size: 0.75rem !important;
     position: relative;
-    left: 230px;
-    bottom: 60px;
+    left: 220px;
+    bottom: 50px;
     width: 100px;
+  }
+  .card:hover {
+    transform: scale(1.05);
   }
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px){
+  .cardContainer{
+    bottom: 30px;
+  }
   .card {
     width: 220px;
     height: 60px;
@@ -74,9 +123,12 @@
   .know-more {
     font-size: 0.65rem !important;
     position: relative;
-    left: 10px;
-    bottom: 15px;
+    left: 5px;
+    bottom: 5px;
     width: 70px;
+  }
+  .know-more img{
+    width: 4px;
   }
 }
   

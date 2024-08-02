@@ -9,7 +9,7 @@ import Locations from "@/Components/Locations/Location";
 import AITFooter from "@/Components/AITFooter/AITFooter";
 import AchieversITBusiness from "@/Components/AchieversITBusiness/AchieversITBusiness";
 import ContactUsBanner from "@/Components/ContactUsBanner/ContactUsBanner";
-// import JobOpenings from "@/Components/JobOpenings/JobOpenings";
+import JobOpenings from "@/Components/JobOpenings/JobOpenings";
 import Trainers from "@/Components/Trainers/Trainers";
 
 // import Reviews from "@/Components/reviews/Reviews";
@@ -26,7 +26,7 @@ export default function Home() {
       <Edges />
       <TopAIT />
       <Trainers />
-      {/* <JobOpenings /> */}
+      <JobOpenings />
       <AchieversITBusiness />
       <Clients />
       <Locations />

@@ -46,7 +46,7 @@
   }
   .mainContainer h2{
     text-align: center;
-    font-size: 2.1rem;
+    font-size: 2.05rem;
     width: 330px;
     position: relative;
     left: 20px;
@@ -54,8 +54,24 @@
     padding-bottom: 15px;
   }
   .job-card {
-    height: 130px;
+    height: 145px;
     width: 320px;
+  }
+}
+
+@media(min-device-width: 768px) and (max-device-width: 1024px){
+  .job-card {
+    position: relative;
+    right: 15px;
+    height: 120px;
+    width: 320px;
+  }
+  .mainContainer h4{
+    font-size: .9rem;
+    font-weight: bold;
+  }
+  .mainContainer p{
+    font-size: .7rem;
   }
 }
   

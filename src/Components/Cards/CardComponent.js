@@ -1,9 +1,9 @@
 import Link from 'next/link';
 import styles from './cards.module.css';
 
-const CardComponent = ({ title, role}) => {
+const CardComponent = ({ title, role, icon, backgroundClass}) => {
   return (
-    <div className={`card ${styles.card}`}>
+    <div className={`card ${styles.card} ${backgroundClass}`}>
       <div className="card-body p-0 d-flex align-items-center">
         <Link href='#'>
         <div className='container'>
@@ -13,7 +13,10 @@ const CardComponent = ({ title, role}) => {
               <b className="card-subtitle mb-2 text-black">{role}</b>
 						</div>
 					  <div className='col-md-5 col-sm-6 text-start'>
-              <p className={`${styles['know-more']} card-link fs-6 fw-bold`}>Know More</p>
+              <p className={`${styles['know-more']} card-link fs-6 fw-bold`}>
+                Know More 
+                {icon && <img src={icon} alt={`${title} icon`} />}
+              </p>
 					  </div>
           </div>
         </div>

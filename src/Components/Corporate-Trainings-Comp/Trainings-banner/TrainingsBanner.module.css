@@ -55,3 +55,10 @@
     margin-right: 20px;
   }
 }
+
+@media(min-device-width: 768px) and (max-device-width: 1024px){
+  .heading{
+    left: 70px;
+    font-size: xx-large;
+  }
+}

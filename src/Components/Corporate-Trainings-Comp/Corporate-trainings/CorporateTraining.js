@@ -5,13 +5,13 @@ import styles from './CorporateTraining.module.css';
 const CorporateTraining = () => {
   return (
     <div className={`container my-5 ${styles.trainingsContainer}`}>
-      <h2 className="text-center mb-4 fw-bold">CORPORATE TRAINING</h2>
-      <h5 className="text-center my-4 px-4 fw-bold">
+      <h2 className="text-center mb-4 fw-bold mb-sm-5">CORPORATE TRAINING</h2>
+      <h5 className="text-center my-4 px-4 fw-bold px-sm-0">
         Looking for a live instructor Led Online training platform to train your employees and connect them with 
         best professional trainers, and enrich their careers?
       </h5>
-      <div className={`row ${styles.containerRow}`}>
-        <div className="col-md-6 col-12 mb-4 pe-5">
+      <div className={`row ${styles.containerRow} p-sm-1`}>
+        <div className="col-md-6 col-12 mb-4 pe-5 mb-sm-0">
           <div>
             <h4>
               <span><i className={`far fa-envelope ${styles.icon} me-2`}></i></span>Proven Online Training Platform

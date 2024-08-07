@@ -23,3 +23,14 @@
 .banner h1{
   font-weight: bold;
 }
+
+@media(max-width:767px){
+  .banner{
+    height: 100px;
+    background-position: left !important;
+  }
+  .banner .content{
+    padding: 20px 30px;
+    text-align: center;
+  }
+}

@@ -19,7 +19,7 @@ const TrainingCourses = () => {
         {courses.map((course, index) => (
           <div key={index} className="col-md-3 mb-4">
             <div className={`card ${styles.courseCard}`}>
-              <div className={`border-left-${course.color} ${styles.borderLeft}`}></div>
+              <div className={`border-left ${styles.borderLeft}`} style={{ backgroundColor: course.color }}></div>
               <div className="card-body p-0">
                 <h6 className="card-title text-primary">{course.title}</h6>
                 <div className="d-flex align-items-center justify-content-center mb-3">

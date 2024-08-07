@@ -28,30 +28,6 @@
   left: 0;
   width: 5px;
   border-radius: 8px 0 0 8px;
-  background-color: blue;
-}
-.border-left-red{
-  background-color: red;
-}
-
-.border-left-blue{
-  background-color: blue;
-}
-
-.border-left-green {
-  background-color: green;
-}
-
-.border-left-cyan {
-  background-color: cyan;
-}
-
-.border-left-purple {
-  background-color: purple;
-}
-
-.border-left-yellow {
-  background-color: yellow;
 }
 
 @media(max-width:767px){

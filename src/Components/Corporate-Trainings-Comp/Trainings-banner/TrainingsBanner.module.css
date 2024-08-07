@@ -1,0 +1,57 @@
+.trainingContainer {
+  background: linear-gradient(to left, #f2fcfe, #1c92d2);
+  padding: 20px;
+}
+.heading {
+  position: relative;
+  display: inline-block;
+  font-weight: bold;
+  text-align: center;
+  font-size: x-larger;
+}
+
+.heading::after {
+  content: '';
+  display: block;
+  width: 20%;
+  margin: 0 auto;
+  border-bottom: 3px solid #8fbc54;
+  margin-top: 5px;
+}
+.trainingContainer .bannerImg{
+  border-bottom-right-radius: 50%;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+  margin-right: 40px;
+}
+
+.filterOrange{
+  filter: invert(35%) sepia(72%) saturate(6067%) hue-rotate(2deg) brightness(101%) contrast(105%);
+  /* color: orangered; */
+}
+.filterBlue {
+  filter: brightness(0) saturate(100%) invert(11%) sepia(70%) saturate(3000%) hue-rotate(190deg) brightness(90%) contrast(95%);
+  /* color: #0c5397; */
+}
+.filterLightGreen {
+  filter: brightness(0) saturate(100%) invert(80%) sepia(50%) saturate(400%) hue-rotate(60deg) brightness(100%) contrast(90%);
+  /* color: lightgreen; */
+}
+
+@media(max-width:767px){
+  .innerContainerTwo{
+    padding: 5px 10px !important;
+  }
+  .innerContainerTwo p{
+     font-size: .9rem !important;
+     margin: 0% !important;
+  }
+  .icon {
+    width: 35px;
+    height: 35px;
+    margin-right: 20px;
+  }
+}

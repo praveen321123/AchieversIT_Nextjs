@@ -1,0 +1,50 @@
+.mainContainer h2{
+  text-align: center;
+  position: relative;
+  margin-bottom: 20px;
+}
+.mainContainer h2::after{
+  content: '';
+  display: block;
+  width: 10%; 
+  margin: 0 auto; 
+  border-bottom: 3px solid #8fbc54;
+  margin-top: 5px; 
+}
+.mainContainer img{
+  width: 130px;
+  height: 130px; 
+  object-fit: cover;
+  padding: 5px;
+  border: 1px solid #99999964;
+}
+.mainContainer p{
+  color: #999;
+  line-height: 1rem;
+  font-size: small;
+  padding: 20px;
+}
+
+.mainContainer .lists{
+  background: #999;
+  border-color: transparent;
+  box-shadow: inset 0 2px 1px rgba(0, 0, 0, 0.2);
+  width: 12px;
+  height: 12px;
+  margin: 1px 3px;
+  border-radius: 50%;
+  border: none;
+}
+
+.lists.active{
+  background: #555;
+  box-shadow: inset 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+@media(max-width:767px){
+  .mainContainer p{
+    padding: 20px 10px !important;
+    text-align: justify !important;
+  }
+}
+

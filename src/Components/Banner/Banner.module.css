@@ -1,0 +1,25 @@
+.banner {
+  height: 255px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.banner::before{
+  background: #020203;
+  content: "";
+  bottom: 0;
+  left: 0;
+  opacity: .7;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.banner .content{
+  position: relative;
+  padding: 80px 90px;
+}
+
+.banner h1{
+  font-weight: bold;
+}

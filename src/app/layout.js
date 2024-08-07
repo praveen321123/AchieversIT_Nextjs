@@ -2,6 +2,8 @@ import MainHeader from "@/Components/header/main-header";
 import Footer from "@/Components/Footer/Footer";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./globals.css";
+import Locations from "@/Components/Locations/Location";
+import AITFooter from "@/Components/AITFooter/AITFooter";
 
 export const metadata = {
   title: "AchieversIT-Best Tech Training Institutions in India",
@@ -22,6 +24,8 @@ export default function RootLayout({ children }) {
         </div>
         <Footer />
         {children}
+        <Locations />
+        <AITFooter />
       </body>
     </html>
   );

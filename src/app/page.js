@@ -29,8 +29,6 @@ export default function Home() {
       <JobOpenings />
       <AchieversITBusiness />
       <Clients />
-      <Locations />
-      <AITFooter />
     </main>
   );
 }

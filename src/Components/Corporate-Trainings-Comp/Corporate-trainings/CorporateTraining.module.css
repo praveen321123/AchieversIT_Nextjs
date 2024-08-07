@@ -1,0 +1,46 @@
+.trainingsContainer h2{
+  text-align: center;
+  position: relative;
+  margin-bottom: 20px;
+}
+.trainingsContainer h2::after {
+  content: '';
+  display: block;
+  width: 10%; 
+  margin: 0 auto; 
+  border-bottom: 3px solid #8fbc54;
+  margin-top: 5px; 
+}
+
+.containerRow {
+  padding: 30px 60px;
+}
+
+.icon {
+  font-size: x-large;
+  color: orangered;
+}
+
+.containerRow p{
+  text-align: justify;
+}
+
+/* Responsive Styles */
+
+@media(max-width:767px){
+  .trainingsContainer{
+    margin-bottom: 0% !important;
+  }
+  .trainingsContainer h2::after {
+    width: 30%;
+  }
+  .trainingsContainer h5{
+    font-size: 1rem;
+  }
+  .containerRow {
+    padding: 10px 20px;
+  }
+  .containerRow div{
+    padding: 0% !important;
+  }
+}
